@@ -1,0 +1,68 @@
+.sidebar{
+  position:fixed;
+  left:0;
+  bottom:0;
+  top:55px;
+  background-color: white;
+  width:60px;
+  z-index: 200;
+  padding-top:5px;
+
+}
+
+.sidebar-link{
+  height:74px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  /* width: 58px; */
+  
+
+  /* margin-bottom: 2px; helps to identify the boxes */
+}
+
+.sidebar-link:hover{
+  background-color: rgb(227, 226, 226);
+
+}
+
+
+.sidebar-link img{
+  height: 24px;
+  /* padding-left: 15px;
+  padding-right: 15px ;
+  padding-top: 15px;
+  padding-bottom: 15px ; */
+                                          
+}
+
+.sidebar-link div{
+  /* font-family:Roboto,Arial; */
+  font-size:8.5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+IMPORATNT POINTS
+
+The space between the sidebar-link and img tells us 
+to target all the images inside the 
+sidebar-link insted of all the 
+images hence to do that we use space */
